@@ -10,6 +10,7 @@ html, body {
     height: 100%;
 }
 
+/* section 1 */
 #page1 {
     width: 100%;
     height: 100vh;
@@ -93,4 +94,12 @@ nav h4 {
 
 #page1-content h1 span {
     font-family: "montserrat";
+}
+
+/* section 2 */
+.page2 {
+    width: 100%;
+    height: 100vh;
+
+    background-color: antiquewhite;
 }
