@@ -118,3 +118,11 @@ nav h4 {
     font-weight: 500;
 }
 
+.page2 h1 {
+    font-size: 3.6vw;
+    font-weight: 400;
+    text-indent: 8vw;
+
+    margin-top: 10px;
+}
+

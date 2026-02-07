@@ -61,17 +61,20 @@ const cursorEffect = () => {
 cursorEffect();
 
 const page2Animation = () => {
-    gsap.from("", {
+    gsap.from(".page2 h1 span", {
         y: 120,
-        stagger: 0.25,
+        stagger: 0.6,
+        opacity: 0,
         duration: 1,
         scrollTrigger: {
             trigger: ".page2",
             scroller: "main",
             start: "top 40%",
             end: "top 37%",
-            markers: true,
+            // markers: true,
             scrub: 2
         }
     });
 };
+
+page2Animation();
