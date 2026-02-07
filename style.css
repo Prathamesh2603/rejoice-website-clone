@@ -118,11 +118,30 @@ nav h4 {
     font-weight: 500;
 }
 
+#elem {
+    overflow: hidden;
+}
+
+#first-line {
+    text-indent: 8vw;
+}
+
 .page2 h1 {
     font-size: 3.6vw;
     font-weight: 400;
-    text-indent: 8vw;
 
     margin-top: 10px;
+}
+
+/* section 3 */
+.page3 {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    padding: 3vw;
+}
+
+#page3-top {
+    text-align: center;
 }
 

@@ -61,10 +61,9 @@ const cursorEffect = () => {
 cursorEffect();
 
 const page2Animation = () => {
-    gsap.from(".page2 h1 span", {
+    gsap.from("#elem h1", {
         y: 120,
-        stagger: 0.6,
-        opacity: 0,
+        stagger: 0.25,
         duration: 1,
         scrollTrigger: {
             trigger: ".page2",
