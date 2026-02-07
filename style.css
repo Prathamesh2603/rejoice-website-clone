@@ -101,5 +101,20 @@ nav h4 {
     width: 100%;
     height: 100vh;
 
-    background-color: antiquewhite;
+    padding: 60px 40px 0 40px;
 }
+
+#page2__info-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+    border-bottom: 0.5px solid black;
+    padding-bottom: 14px;
+}
+
+#page2__info-top h4 {
+    font-size: 1.4vw;
+    font-weight: 500;
+}
+
