@@ -61,7 +61,7 @@ const cursorEffect = () => {
 cursorEffect();
 
 const page2Animation = () => {
-    gsap.from("#elem h1", {
+    gsap.from(".elem h1", {
         y: 120,
         stagger: 0.25,
         duration: 1,
@@ -77,3 +77,21 @@ const page2Animation = () => {
 };
 
 page2Animation();
+
+const page4Animation = () => {
+    gsap.from("#elem h1", {
+        y: 120,
+        stagger: 0.25,
+        duration: 1,
+        scrollTrigger: {
+            trigger: ".page4",
+            scroller: "main",
+            start: "top 32%",
+            end: "top 34%",
+            markers: true,
+            scrub: 2
+        }
+    });
+};
+
+page4Animation();

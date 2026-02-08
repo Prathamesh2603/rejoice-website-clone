@@ -118,15 +118,15 @@ nav h4 {
     font-weight: 500;
 }
 
-#elem {
+.elem, .page4 #elem {
     overflow: hidden;
 }
 
-#first-line {
+.first-line, .page4 #first-line {
     text-indent: 8vw;
 }
 
-.page2 h1 {
+.page2 h1, .page4 h1 {
     font-size: 3.6vw;
     font-weight: 400;
 
@@ -204,4 +204,12 @@ nav h4 {
 
     object-fit: cover;
     object-position: center;
+}
+
+/* section 4 */
+.page4 {
+    width: 100%;
+    min-height: 100vh;
+
+    padding: 60px 40px 0 40px;
 }
