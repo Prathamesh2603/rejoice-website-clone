@@ -88,7 +88,7 @@ const page4Animation = () => {
             scroller: "main",
             start: "top 32%",
             end: "top 34%",
-            markers: true,
+            // markers: true,
             scrub: 2
         }
     });
