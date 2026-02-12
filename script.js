@@ -96,16 +96,16 @@ const page4Animation = () => {
 
 page4Animation();
 
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    loop: true,
-    pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-    },
-    navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-    },
-});
+const sliderAnimation = () => {
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: true,
+        }
+    });
+}
+
+sliderAnimation();
