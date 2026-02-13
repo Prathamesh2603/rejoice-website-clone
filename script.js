@@ -109,3 +109,22 @@ const sliderAnimation = () => {
 }
 
 sliderAnimation();
+
+const tl = gsap.timeline();
+
+tl.from(".loader h3", {
+    x: 40,
+    opacity: 0,
+    duration: 1,
+    stagger: 0.1
+}).to(".loader h3", {
+    x: -10,
+    opacity: 0,
+    duration: 1,
+    stagger: 0.1
+}).to(".loader", {
+    opacity: 0,
+    // display: "none"
+}).to(".loader", {
+    display: "none"
+})
