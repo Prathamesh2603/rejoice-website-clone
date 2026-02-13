@@ -108,14 +108,14 @@ nav h4 {
 #page2__info-top {
     display: flex;
     justify-content: space-between;
-    align-items: end;
+    align-items: flex-end;
 
     border-bottom: 0.5px solid black;
     padding-bottom: 14px;
 }
 
 #page2__info-top h4 {
-    font-size: 1.4vw;
+    font-size: clamp(0.9rem, 1.4vw, 1.2rem);
     font-weight: 500;
 }
 
@@ -124,11 +124,11 @@ nav h4 {
 }
 
 .first-line, .page4 #first-line {
-    text-indent: 8vw;
+    text-indent: clamp(1rem, 8vw, 6rem);;
 }
 
 .page2 h1, .page4 h1 {
-    font-size: 3.6vw;
+    font-size: clamp(1.4rem, 3.6vw, 3rem);
     font-weight: 400;
 
     margin-top: 10px;
@@ -213,25 +213,6 @@ nav h4 {
     min-height: 100vh;
 
     padding: 60px 40px 60px 40px;
-}
-
-.page4__video div{
-    display: flex;
-    justify-content: center;
-
-    margin-top: 8vw;
-}
-
-.page4__video video{
-    width: 38vw;
-    height: 38vw;
-    
-    object-fit: cover;
-    object-position: center;
-    
-    border-radius: 50%;
-
-    filter: blur(12px);
 }
 
 /* section 5 */

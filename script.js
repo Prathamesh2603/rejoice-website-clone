@@ -80,7 +80,7 @@ page2Animation();
 
 const page4Animation = () => {
     gsap.from("#elem h1", {
-        y: 120,
+        y:  window.innerWidth < 768 ? 60 : 120,
         stagger: 0.25,
         duration: 1,
         scrollTrigger: {
