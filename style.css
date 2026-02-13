@@ -94,6 +94,7 @@ nav h4 {
 
 #page1-content h1 span {
     font-family: "montserrat";
+    display: inline-block;
 }
 
 /* section 2 */

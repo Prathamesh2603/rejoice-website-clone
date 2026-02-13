@@ -124,7 +124,12 @@ tl.from(".loader h3", {
     stagger: 0.1
 }).to(".loader", {
     opacity: 0,
-    // display: "none"
+}).from("#page1-content h1 span", {
+    y: 100,
+    opacity: 0,
+    stagger: 0.1,
+    duration: 0.3,
+    delay: -0.3
 }).to(".loader", {
     display: "none"
 })
